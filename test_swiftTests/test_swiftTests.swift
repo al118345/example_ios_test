@@ -21,6 +21,7 @@ class test_swiftTests: XCTestCase {
   
           
     }
+    
 
     override func tearDown() {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
@@ -32,6 +33,11 @@ class test_swiftTests: XCTestCase {
           XCTAssertTrue(bResul, "testExample error. \(str_number)");
         
     }
+    
+    func testExample2() {
+        controller.crearfichero()
+      }
+    
 
     func testPerformanceExample() {
         // This is an example of a performance test case.
